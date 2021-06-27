@@ -1,0 +1,17 @@
+{
+  "name": "littlemoji",
+  "version": "1.0.0",
+  "description": "littlemoji 的个人博客",
+  "main": "index.js",
+  "repository": "https://github.com/littlemoji/littlemoji.github.io.git",
+  "author": "littlemoji",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "git bash deploy.sh",
+  }
+}
