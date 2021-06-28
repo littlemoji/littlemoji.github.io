@@ -13,5 +13,7 @@
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "deploy": "git bash deploy.sh",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
   }
 }
