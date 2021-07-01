@@ -1,0 +1,17 @@
+{
+  "name": "littlemoji",
+  "version": "1.0.0",
+  "description": "littlemoji's blog",
+  "main": "index.js",
+  "author": "littlemoji",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@vuepress/theme-blog": "^2.3.3",
+    "vuepress": "^1.8.2"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  }
+}
